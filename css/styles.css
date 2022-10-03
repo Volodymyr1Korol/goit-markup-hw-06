@@ -850,15 +850,15 @@ footer-adress {
 }
 
 .modal-input:focus~.modal-icon {
-    fill: var(--blue-color);
-    transition: all 250ms var(--anim-fast);
+    fill: var(--prime-accent-color);
+    transition: all 100ms var(--anim-fast);
 }
 
 .modal-input:focus,
 .modal-text-area-comment:focus {
-    border: 1px solid var(--blue-color);
+    border: 1px solid var(--prime-accent-color);
     outline: none;
-    transition: all 250ms var(--anim-fast);
+    transition: all 100ms var(--anim-fast);
 }
 
 .modal-button {
